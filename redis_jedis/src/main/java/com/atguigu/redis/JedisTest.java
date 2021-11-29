@@ -7,7 +7,7 @@ import java.util.Set;
 public class JedisTest {
     public static void main(String[] args) {
         Jedis jedis = new Jedis("hadoop102", 6379);
-
+//githup
 //        jedis.sadd("xiyouji","tangsanzhang","xunwukong","zhubajie");
         jedis.expire("xiyouji",20);
 
